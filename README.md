@@ -6,7 +6,7 @@ This project showcases my skills, projects, and experience as a student, built t
 ---
 
 ## 🚀 Live Demo
-🔗 **Live Site:** [app](https://www.urielchilaka.ca/)
+🔗 **Live Site:** [Portfolio](https://www.urielchilaka.ca/)
 
 ---
 

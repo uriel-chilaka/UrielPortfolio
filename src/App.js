@@ -149,7 +149,7 @@ export default function Portfolio() {
                 <Linkedin size={20} />
                 LinkedIn
               </a>
-              <a href="YOUR_RESUME_URL_HERE" target="_blank" rel="noopener noreferrer"
+              <a href="https://github.com/uriel-chilaka/UrielResume/raw/main/UrielChilakaTerm3.pdf" target="_blank" rel="noopener noreferrer"
                  className="flex items-center gap-2 bg-slate-800 text-slate-100 px-6 py-3 rounded-lg font-medium hover:bg-slate-700 transition-all border border-slate-700 hover:scale-105">
                 <FileText size={20} />
                 Resume

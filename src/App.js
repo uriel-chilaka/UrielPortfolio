@@ -93,9 +93,9 @@ export default function Portfolio() {
 
   const awards = [
     "Brown's Scholarship - $10,000",
+    "verafin Computer Engineering Scholarship - $3,000",
     "Technology Career Pathway Scholarship - $2,500",
-    "Memorial University Transforming Our Horizons - $2,000",
-    "Waterford Valley Exemplary Leadership Award - $100"
+    "Memorial University Transforming Our Horizons - $2,000"
   ];
 
   return (

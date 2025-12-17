@@ -136,7 +136,7 @@ export default function Portfolio() {
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 font-light">Computer Engineering Student</p>
             <p className="text-base md:text-lg text-slate-400 max-w-2xl leading-relaxed">
-              Welcome to my portfolio! I'm Uriel Chilaka, a Computer Engineering student at Memorial University. I'm originally from Nigeria and currently based in Paradise, NL. Explore my projects, skills, and experience on my journey in the world of engineering and technology.
+              Welcome to my portfolio! I'm Uriel Chilaka, a Computer Engineering student at Memorial University. I'm originally from Nigeria and currently based in Paradise, NL.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href="https://github.com/uriel-chilaka" target="_blank" rel="noopener noreferrer" 

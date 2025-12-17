@@ -88,7 +88,7 @@ export default function Portfolio() {
     { category: "Languages", items: ["Python", "C/C++", "JavaScript", "HTML", "CSS"] },
     { category: "Embedded", items: ["Arduino IDE", "Raspberry Pi"] },
     { category: "Tools & Development", items: ["Git", "Github", "Visual Studio", "Visual Studio Code", "Pycharm", "Bambu Studio", "Onshape", "MATLAB"] },
-    { category: "Professional", items: ["Project Management", "Teamwork", "Documentation (Mircosoft Office)", "Presentation Skills", "Communication"] }
+    { category: "Professional", items: ["Project Management", "Teamwork", "Documentation (Microsoft Office)", "Presentation Skills", "Communication"] }
   ];
 
   const awards = [
@@ -136,7 +136,7 @@ export default function Portfolio() {
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 font-light">Computer Engineering Student</p>
             <p className="text-base md:text-lg text-slate-400 max-w-2xl leading-relaxed">
-              Welcome to my portfolio! I'm Uriel Chilaka, a Computer Engineering student at Memorial University. I'm orginally from Nigeria and currently based in Paradise, NL. Explore my projects, skills, and experience on my journey in the world of engineering and technology.
+              Welcome to my portfolio! I'm Uriel Chilaka, a Computer Engineering student at Memorial University. I'm originally from Nigeria and currently based in Paradise, NL. Explore my projects, skills, and experience on my journey in the world of engineering and technology.
             </p>
             <div className="flex flex-wrap gap-4 pt-4">
               <a href="https://github.com/uriel-chilaka" target="_blank" rel="noopener noreferrer" 
@@ -167,7 +167,7 @@ export default function Portfolio() {
           </h2>
           <div className="bg-slate-900/50 backdrop-blur rounded-xl border border-slate-800 p-8 space-y-4 hover:border-purple-500/50 transition-all">
             <p className="text-slate-300 leading-relaxed text-lg">
-              I'm a Computer Engineering student at Memorial University (Class of 2029) I have a strong intrest in both software development and embedded systems. With hands-on experience gained through internships and academic projects, I have developed skills in programming languages such as Python and C++, as well as proficiency in systems like Arduino IDE and Raspberry Pi.
+              I'm a Computer Engineering student at Memorial University (Class of 2029) I have a strong interest in both software development and embedded systems. With hands-on experience gained through internships and academic projects, I have developed skills in programming languages such as Python and C++, as well as proficiency in systems like Arduino IDE and Raspberry Pi.
             </p>
             <p className="text-slate-300 leading-relaxed text-lg">
               My passion lies in creating innovative solutions that bridge hardware and software, enhancing user experiences through technology. I'm eager to apply my skills in real-world projects and continue learning in the ever-evolving field of computer engineering.

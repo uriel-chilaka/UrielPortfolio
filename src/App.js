@@ -42,7 +42,7 @@ export default function Portfolio() {
       logo: "MU",
       logoUrl: "https://www.sciencerendezvous.ca/wp-content/uploads/2017/03/logo-memorial.jpg",
       color: "from-slate-600 to-slate-700",
-      skills: ["Python", "Leadership", "Problem-solving"]
+      skills: ["Python", "Leadership", "Problem-solving", "Project Management"]
     },
     {
       company: "Paradigm Engineering (Student Design Team)",
@@ -85,7 +85,7 @@ export default function Portfolio() {
       tech: "Dart, Flutter",
       description: "An android task management mobile app designed to help me organize daily goals, track productivity, and stay focused. Built with Flutter for smooth performance and a clean, intuitive user experience across android devices.",
       highlight: "Designed for productivity with a clean, responsive Flutter UI",
-      tags: ["Dart", "Flutter", "Mobile Apps"],
+      tags: ["Dart", "Flutter", "Mobile Applications"],
       image: "https://i.ibb.co/Q7CvJDnq/Screenshot-2026-01-31-195450.png"
     },
     {
@@ -94,7 +94,7 @@ export default function Portfolio() {
       description: "A modern, fully responsive portfolio website showcasing my projects, skills, and experience. Built with React and styled using Tailwind CSS to ensure fast performance, scalability, and a polished user interface.",
       highlight: "Built with modern web technologies and responsive design principles",
       tags: ["React", "Tailwind CSS", "Web Development"],
-      image: "https://tse1.mm.bing.net/th/id/OIP.jI3EHn_nZZDc7Vf_RBgPYgHaHw?rs=1&pid=ImgDetMain&o=7&rm=3"
+      image: "https://i.ibb.co/GfzL3LC8/AIGen-Logo.png"
     },
     {
       title: "Study Planner",

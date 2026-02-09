@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Github, Linkedin, Mail, MapPin, Award, Code, Cpu, Wrench, Calendar, ChevronRight, FileText, ExternalLink } from 'lucide-react';
+import React, { useState, useEffect } from 'react'; //import react library, along with 2 named hooks, (useState and useEffect)
+import { Github, Linkedin, Mail, MapPin, Award, Code, Cpu, Wrench, Calendar, ChevronRight, FileText, ExternalLink } from 'lucide-react'; //lucide-react is an icon library, we import these icons
 
 export default function Portfolio() {
   const [scrolled, setScrolled] = useState(false);
@@ -38,7 +38,7 @@ export default function Portfolio() {
       role: "Co-op Engineering Student",
       period: "Jan 2026 - Apr 2026",
       location: "St. John's, NL",
-      description: "Worked as a co-op engineering student delivering hands-on STEM and engineering workshops to youth through school visits, camps, and community outreach events. Collaborated with team members to plan engaging activities while clearly explaining technical concepts to non-technical audiences. Supported coding-based learning by introducing fundamental Python programming and engineering principles.",
+      description: "Worked as a co-op engineering student delivering hands-on STEM and engineering workshops to youth through school visits, camps, and community outreach events. Collaborated with team members to plan engaging activities while clearly explaining technical concepts to non-technical audiences. Supported coding-based learning featuring Arduino and Raspberry Pi by introducing fundamental Python programming and engineering principles.",
       logo: "MU",
       logoUrl: "https://www.sciencerendezvous.ca/wp-content/uploads/2017/03/logo-memorial.jpg",
       color: "from-slate-600 to-slate-700",
@@ -115,9 +115,9 @@ export default function Portfolio() {
   ];
 
   const skills = [
-    { category: "Languages", items: ["Python", "Dart", "C++", "JavaScript", "HTML/CSS"] },
+    { category: "Languages", items: ["Python", "Dart", "C++", "JavaScript", "HTML", "CSS"] },
     { category: "Embedded", items: ["Arduino IDE", "Raspberry Pi", "STM32"] },
-    { category: "Tools & Development", items: ["Git", " Flutter", "Github", "VS Code", "Pycharm", "Bambu Studio", "Onshape", "MATLAB"] },
+    { category: "Tools & Development", items: ["Flutter", "Git", "VS Code", "MATLAB", "PSpice" ] },
     { category: "Professional", items: ["Project Management", "Teamwork", "Documentation (Microsoft Office)", "Presentation Skills", "Communication"] }
   ];
 

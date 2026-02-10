@@ -32,13 +32,14 @@ export default function Portfolio() {
     }
   };
 
+  //experience section
   const experiences = [
     {
       company: "Memorial University",
       role: "Co-op Engineering Student",
       period: "Jan 2026 - Apr 2026",
       location: "St. John's, NL",
-      description: "Worked as a co-op engineering student delivering hands-on STEM and engineering workshops to youth through school visits, camps, and community outreach events. Collaborated with team members to plan engaging activities while clearly explaining technical concepts to non-technical audiences. Supported coding-based learning featuring Arduino and Raspberry Pi by introducing fundamental Python programming and engineering principles.",
+      description: "Working as a co-op engineering student delivering hands-on STEM and engineering workshops to youth through school visits, camps, and community outreach events. Collaborated with team members to plan engaging activities while clearly explaining technical concepts to non-technical audiences. Supported coding-based learning featuring Arduino and Raspberry Pi by introducing fundamental Python programming and engineering principles.",
       logo: "MU",
       logoUrl: "https://www.sciencerendezvous.ca/wp-content/uploads/2017/03/logo-memorial.jpg",
       color: "from-slate-600 to-slate-700",
@@ -79,6 +80,7 @@ export default function Portfolio() {
     }
   ];
 
+  //projects section
   const projects = [
     {
       title: "UriTasks",
@@ -114,6 +116,7 @@ export default function Portfolio() {
     }
   ];
 
+  //skills section
   const skills = [
     { category: "Languages", items: ["Python", "Dart", "C++", "JavaScript", "HTML", "CSS"] },
     { category: "Embedded", items: ["Arduino IDE", "Raspberry Pi", "STM32"] },
@@ -121,6 +124,7 @@ export default function Portfolio() {
     { category: "Professional", items: ["Project Management", "Teamwork", "Documentation (Microsoft Office)", "Presentation Skills", "Communication"] }
   ];
 
+  //awards section
   const awards = [
     "Brown's Scholarship - $10,000",
     "verafin Computer Engineering Scholarship - $3,000",
@@ -128,6 +132,7 @@ export default function Portfolio() {
     "Memorial University Transforming Our Horizons - $2,000"
   ];
 
+  //social links 
   const socialLinks = [
     {
       name: "GitHub",
@@ -183,7 +188,7 @@ export default function Portfolio() {
         </div>
       </nav>
 
-      {/* Hero Section */}
+      {/*hero section*/}
       <header id="home" className="relative overflow-hidden pt-32 pb-20">
         <div className="absolute inset-0 bg-gradient-to-br from-neutral-900 via-neutral-950 to-black"></div>
         <div className="absolute top-20 left-10 w-96 h-96 bg-slate-700/20 rounded-full blur-3xl"></div>
@@ -203,7 +208,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Hero Content */}
+            {/*hero content*/}
             <div className="space-y-6 text-center max-w-3xl">
               <div>
                 <h1 className="text-5xl md:text-6xl font-bold text-white mb-2">
@@ -244,7 +249,7 @@ export default function Portfolio() {
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-16 space-y-24">
-        {/* About Section */}
+        {/*about section */}
         <section id="about">
           <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <div className="h-1 w-12 bg-gradient-to-r from-slate-600 to-slate-700 rounded"></div>
@@ -336,7 +341,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Projects Section */}
+        {/*projects section */}
         <section id="projects">
           <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <div className="h-1 w-12 bg-gradient-to-r from-slate-600 to-slate-700 rounded"></div>
@@ -357,7 +362,7 @@ export default function Portfolio() {
                     </div>
                   )}
                   
-                  {/* Project Content */}
+                  {/*project content*/}
                   <div className="flex-1 p-8 space-y-4">
                     <div>
                       <h3 className="text-2xl font-bold text-white">{project.title}</h3>
@@ -382,7 +387,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Skills Section */}
+        {/*skills section*/}
         <section id="skills">
           <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <div className="h-1 w-12 bg-gradient-to-r from-slate-600 to-slate-700 rounded"></div>
@@ -409,7 +414,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Awards Section */}
+        {/*awards section */}
         <section id="awards">
           <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <div className="h-1 w-12 bg-gradient-to-r from-slate-600 to-slate-700 rounded"></div>
@@ -429,7 +434,7 @@ export default function Portfolio() {
           </div>
         </section>
 
-        {/* Contact Section */}
+        {/*contact section*/}
         <section id="contact">
           <h2 className="text-3xl font-bold text-white mb-8 flex items-center gap-3">
             <div className="h-1 w-12 bg-gradient-to-r from-slate-600 to-slate-700 rounded"></div>
@@ -480,7 +485,7 @@ export default function Portfolio() {
         </section>
       </main>
 
-      {/* Footer */}
+      {/*footer*/}
       <footer className="bg-neutral-900/50 backdrop-blur border-t border-neutral-800 py-8 mt-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
@@ -489,7 +494,7 @@ export default function Portfolio() {
               <p className="text-slate-500 text-sm">Computer Engineering Student @ Memorial University</p>
             </div>
             
-            {/* Footer Social Links */}
+            {/*footer social links*/}
             <div className="flex gap-3">
               {socialLinks.map((link) => (
                 <a
@@ -508,7 +513,7 @@ export default function Portfolio() {
         </div>
       </footer>
 
-      {/* Scroll to top button */}
+      {/*scroll to top button*/}
       {scrolled && (
         <button
           onClick={() => scrollToSection('home')}

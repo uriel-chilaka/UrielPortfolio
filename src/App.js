@@ -258,7 +258,7 @@ export default function Portfolio() {
           <div className="bg-neutral-900/50 backdrop-blur rounded-2xl border border-neutral-800 p-8 hover:border-neutral-700 transition-all">
             <div className="space-y-6">
               <p className="text-slate-300 leading-relaxed text-lg">
-                I'm a Computer Engineering student at Memorial University (Class of 2029) with a strong interest in Artificial Intelligence, Backend Development and Embedded Systems. I have developed skills in programming languages such as Python, Dart, and C++.
+                Hey! I’m Uriel, a Computer Engineering student at Memorial University (Class of 2029) with a strong interest in AI and embedded systems. I have experience with Python,C++, and Dart. I haved worked with platforms such as Raspberry Pi, Arduino, and STM32.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg">
                 

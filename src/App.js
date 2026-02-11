@@ -127,7 +127,7 @@ export default function Portfolio() {
   //awards section
   const awards = [
     "Brown's Scholarship - $10,000",
-    "verafin Computer Engineering Scholarship - $3,000",
+    "Verafin Computer Engineering Scholarship - $3,000",
     "Technology Career Pathway Scholarship - $2,500",
     "Memorial University Transforming Our Horizons - $2,000"
   ];
@@ -258,7 +258,7 @@ export default function Portfolio() {
           <div className="bg-neutral-900/50 backdrop-blur rounded-2xl border border-neutral-800 p-8 hover:border-neutral-700 transition-all">
             <div className="space-y-6">
               <p className="text-slate-300 leading-relaxed text-lg">
-                Hey! I’m Uriel, a Computer Engineering student at Memorial University (Class of 2029) with a strong interest in AI and embedded systems. I have experience with Python,C++, and Dart. I haved worked with platforms such as Raspberry Pi, Arduino, and STM32.
+                Hey! I’m Uriel, a Computer Engineering student at Memorial University (Class of 2029) with a strong interest in AI and embedded systems. I have experience with Python, C++, and Dart. I haved worked with platforms such as Raspberry Pi, Arduino, and STM32.
               </p>
               <p className="text-slate-300 leading-relaxed text-lg">
                 

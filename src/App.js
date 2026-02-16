@@ -54,7 +54,7 @@ export default function Portfolio() {
       logo: "PE",
       logoUrl: "https://th.bing.com/th/id/OIP.x_SRn5deMk6G2jgMw921PgAAAA?w=159&h=159&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3",
       color: "from-slate-600 to-slate-700",
-      skills: ["C++", "STM32", "Debugging", "Git/Github"]
+      skills: ["C/C++", "STM32", "Debugging", "Git/Github"]
     },
     {
       company: "Nasdaq Verafin",
@@ -118,8 +118,8 @@ export default function Portfolio() {
 
   //skills section
   const skills = [
-    { category: "Languages", items: ["Python", "Dart", "C++", "JavaScript", "HTML", "CSS"] },
-    { category: "Embedded", items: ["Arduino IDE", "Raspberry Pi", "STM32"] },
+    { category: "Languages", items: ["Python", "Dart", "C/C++", "JavaScript", "HTML", "CSS"] },
+    { category: "Embedded", items: ["Arduino", "Raspberry Pi", "STM32"] },
     { category: "Tools & Development", items: ["Flutter", "Git", "VS Code", "MATLAB", "PSpice" ] },
     { category: "Professional", items: ["Project Management", "Teamwork", "Documentation (Microsoft Office)", "Presentation Skills", "Communication"] }
   ];

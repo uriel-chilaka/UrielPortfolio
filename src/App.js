@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import { Github, Linkedin, Mail, MapPin, Award, Code, Cpu, Wrench, Calendar, ChevronRight, FileText, ExternalLink, Sun, Moon } from 'lucide-react';
+import React, { useState, useEffect} from 'react';
+import { Github, Linkedin, Mail, MapPin, Award, Code, Cpu, Calendar, ChevronRight, FileText, ExternalLink, Sun, Moon } from 'lucide-react';
 
 // ─── STYLES ───────────────────────────────────────────────────────────────────
 const STYLES = `
@@ -595,7 +595,7 @@ export default function Portfolio() {
               <div className="section-line"/>
             </div>
             <p className="reveal" style={{fontSize:'14px',color:'var(--text2)',marginBottom:'20px',fontFamily:'var(--font-mono)'}}>
-              // Always open to discussing new opportunities — feel free to reach out!
+              {/*  Always open to discussing new opportunities — feel free to reach out! */}
             </p>
             <div className="contact-grid">
               <a href="mailto:uchilaka@mun.ca" className="contact-card reveal">

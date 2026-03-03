@@ -8,7 +8,7 @@ A modern, responsive personal portfolio built with React and Tailwind CSS to sho
 
 ## 🚀 Live Demo
 
-(Insert deployed link here)
+(https://urielchilaka.ca/)
 
 ---
 

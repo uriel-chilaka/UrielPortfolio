@@ -1,28 +1,42 @@
-# 🌐 Uriel Chilaka — Portfolio Website
+#UrielPortfolio  
+```markdown
+# 🌐 Uriel Portfolio Website
 
-Welcome to my personal portfolio website!  
-This project showcases my skills, projects, and experience as a student, built to highlight my work in a clean and responsive way.
-
----
-
-🔗 **Live Site:** [Uriel's Portoflio](https://www.urielchilaka.ca/)
+A modern, responsive personal portfolio built with React and Tailwind CSS to showcase engineering projects, technical skills, and experience.
 
 ---
 
-## 🛠️ Built With
-- **React.js** – Frontend framework for a fast, interactive UI  
-- **Vite / Create React App** – Development and build tool  
-- **Tailwind CSS** – Utility-first CSS for modern responsive design  
-- **Vercel** – Hosting and deployment platform  
+## 🚀 Live Demo
+
+(https://urielchilaka.ca/)
 
 ---
 
-## 📁 Features
-- 🧑‍💼 Responsive design for desktop and mobile  
-- 💡 Smooth animations and transitions  
-- 🧭 Simple navigation between sections (About, Projects, Contact, etc.)  
-- 📨 Contact form (optional if you have one)  
-- ⚡ Fast loading with optimized assets  
+## ✨ Features
+
+- ⚡ Responsive design
+- 🧭 Smooth navigation
+- 🧩 Project showcase section
+- 📄 Resume integration
+- 📬 Contact section
+
+---
+
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- JavaScript
+- Vite
+
+---
+
+## 🧠 Design Goals
+
+- Minimal, professional layout
+- Fast load performance
+- Clean project presentation
+- Recruiter-friendly navigation
 
 ---
 

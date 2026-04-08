@@ -376,7 +376,7 @@ export default function Portfolio() {
     { name:"GitHub",   icon:Github,   url:"https://github.com/uriel-chilaka" },
     { name:"LinkedIn", icon:Linkedin, url:"https://linkedin.com/in/urielchilaka/" },
     { name:"Email",    icon:Mail,     url:"mailto:uchilaka@mun.ca" },
-    { name:"Resume",   icon:FileText, url:"https://drive.google.com/file/d/1tCW8p5MFLTK9yN96WgDPAAUdcaYsGDLD/preview" },
+    { name:"Resume",   icon:FileText, url:"https://drive.google.com/file/d/1OkdSbpv2iMsua9CCjqAZHwhl0C_-7nhb/view?usp=sharing" },
   ];
 
   return (
@@ -418,7 +418,7 @@ export default function Portfolio() {
               <div className="hero-actions">
                 <a href="mailto:uchilaka@mun.ca" className="btn-primary"><Mail size={14}/> Get in touch</a>
                 <button className="btn-secondary" onClick={() => scrollTo('projects')}><Code size={14}/> View projects</button>
-                <a href="https://drive.google.com/file/d/1tCW8p5MFLTK9yN96WgDPAAUdcaYsGDLD/preview" target="_blank" rel="noopener noreferrer" className="btn-secondary"><FileText size={14}/> Resume</a>
+                <a href="https://drive.google.com/file/d/1OkdSbpv2iMsua9CCjqAZHwhl0C_-7nhb/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-secondary"><FileText size={14}/> Resume</a>
               </div>
             </div>
             <div className="profile-card">
@@ -453,7 +453,7 @@ export default function Portfolio() {
               </div>
               <div className="skill-card">
                 <div className="skill-icon cyan"><Code size={20}/></div>
-                <div><h3>Software Development</h3><p>Python, Dart, C/C++, React</p></div>
+                <div><h3>Software Development</h3><p>Python, C/C++, React</p></div>
               </div>
               <div className="skill-card">
                 <div className="skill-icon green"><Cpu size={20}/></div>

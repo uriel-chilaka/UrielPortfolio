@@ -251,6 +251,8 @@ const SKILLS = [
   { name: 'Scikit-Learn',  icon: '🧠', category: 'Tool',      tier: 'exploring'  },
   { name: 'Pandas',  icon: '🐼', category: 'Tool',      tier: 'exploring'  },
   { name: 'Pytorch',  icon: '🔥', category: 'Tool',      tier: 'exploring'  },
+  { name: 'Claude Code', icon: '🤖', category: 'AI', tier: 'exploring'  },
+  { name: 'Codex (ChatGPT)', icon: '🤖', category: 'AI', tier: 'exploring'  },
 ];
 
 const TIERS = [
@@ -356,7 +358,7 @@ export default function Portfolio() {
       github: "https://github.com/uriel-chilaka/UrielPortfolio",
       demo: "https://www.urielchilaka.ca/"
     },
-    { title:"Study Planner", tech:"Python · Tkinter · Arduino · OLED", description:"An AI-assisted study planner bridging software and hardware. Features automated scheduling, progress tracking, and real-time reminders via an Arduino-powered OLED display.", highlight:"Bridging software and hardware to enhance student productivity", tags:["Python","Tkinter","Arduino","AI"], image:"https://image2url.com/images/1761392125744-99c3e0e9-5046-4497-a60a-01b0b6a61d4e.png",
+    { title:"Study Planner", tech:"Python · Tkinter · Arduino", description:"An AI-assisted study planner bridging software and hardware. Features automated scheduling, progress tracking, and real-time reminders via an Arduino-powered OLED display.", highlight:"Bridging software and hardware to enhance student productivity", tags:["Python","Tkinter","Arduino","AI"], image:"https://image2url.com/images/1761392125744-99c3e0e9-5046-4497-a60a-01b0b6a61d4e.png",
       github: "https://github.com/uriel-chilaka/Engineering1020FinalProject",
       demo: null,   // TODO: add demo link here if applicable
     },
@@ -411,7 +413,7 @@ export default function Portfolio() {
         <header id="home" className="hero">
           <div className="hero-inner">
             <div>
-              <div className="hero-badge">Currently: Work Term (1) </div>
+              <div className="hero-badge">Currently: Academic Term 4 </div>
               <h1 className="hero-title">Uriel<br/><span className="accent">Chilaka</span></h1>
               <p className="hero-subtitle">Computer Engineering Student</p>
               <TerminalHero/>
